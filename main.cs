@@ -12,7 +12,12 @@ namespace CSharpTutorials
       {
         String Message= "Hello World! ! this is me";
 
-         Console.WriteLine(message)
+         Console.WriteLine(message) 
+
+         for(int i=0; i < 10; i++) 
+         {
+              Console.WriteLine("Value of i: {0}", i); 
+         }  
       }
    }
 }
